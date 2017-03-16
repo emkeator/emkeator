@@ -35,6 +35,10 @@ a:active {
     text-decoration: none;
 }
 
+.clickable {
+    cursor: pointer;
+}
+
 header {
   background-color: black;
   color: white;
