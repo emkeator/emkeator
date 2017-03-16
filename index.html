@@ -1,7 +1,302 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+  <title>Emily Keator Portfolio</title>
+  <link href="css/main.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Lato:100|Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://weloveiconfonts.com/api/?family=zocial">
+</head>
+
+
+
 <body>
-<h1>This site is in progress (3/14/17).</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+  <div class="container-fluid">
+
+    <!-- Header -->
+    <header class="row">
+      <section class="header-container">
+        <div class="logo text-center">
+          <img src="css/images/EKlogo_750.png" alt="simple drawing of mountains, sun, and birds">
+        </div>
+
+        <div class="header-section text-uppercase">
+          <h1 class="main-head-text">Emily Keator</h1>
+          <h3 class="sub-head-text">Front-end Web Developer</h3>
+        </div>
+      </section>
+
+    </header>
+
+    <div class="row divider"></div>
+
+    <!-- Main picture -->
+    <section class="row main-picture">
+      <picture>
+        <img class="col-md-12 img-responsive"
+        src="css/images/LACMA_tile_2000.jpg" srcset="css/images/LACMA_tile_2000.jpg 2000w, css/images/LACMA_tile_900.jpg 900w"
+        alt="LA County Musueum of Art, Urban Light exhibit">
+      </picture>
+    </section>
+
+    <div class="row divider"></div>
+
+    <!-- Featured web skills header -->
+    <section class="row">
+      <h2 class="col-md-12 feature-header">Featured Web Skills</h2>
+    </section>
+
+    <!-- Apps -->
+    <section class="row app-container">
+      <div class="app-box" data-toggle="modal" data-target="#web">
+        <img class="img-responsive" src="css/images/Orsee.jpg" alt="Louvre Musuem, as seen through the Musee d'Orsay Clock">
+        <div class="overlay large-view">
+          <h3>Web Development</h3>
+        </div>
+      </div>
+
+      <div class="app-box" data-toggle="modal" data-target="#programming">
+        <img class="img-responsive" src="css/images/Wings.jpg" alt="\'Wings\' by Collette Miller, in Los Angeles">
+        <div class="overlay large-view">
+          <h3>Programming</h3>
+        </div>
+      </div>
+
+      <div class="app-box" data-toggle="modal" data-target="#design">
+        <img class="img-responsive" src="css/images/Bean.jpg" alt="The Bean, Chicago, as seen from directly underneath">
+        <div class="overlay large-view">
+          <h3>Design & Photography</h3>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="row divider"></div>
+
+    <!-- Featured photography header -->
+    <section class="row">
+      <h2 class="col-md-12 feature-header">Featured Photography</h2>
+    </section>
+
+    <!-- Photos -->
+    <section class="row app-container">
+      <a class="app-box" href="https://www.google.com/maps/place/Chrysler+Building" target="_blank">
+        <img class="img-responsive image" src="css/images/Chrysler.jpg" alt="Chrysler building, NYC">
+        <div class="overlay">
+          <h3>Chrysler Building</h3><p>Lexington Ave, New York, NY</p>
+        </div>
+      </a>
+
+      <a class="app-box" href="https://www.google.com/maps/place/Holyrood+Park+Edinburgh" target="_blank">
+        <img class="img-responsive image" src="css/images/Edinburgh.jpg" alt="woman looking over Edinburgh">
+        <div class="overlay">
+          <h3>Evening atop Arthur's Seat</h3><p>Edinburgh, Scotland</p>
+        </div>
+      </a>
+
+      <a class="app-box" href="https://www.google.com/maps/place/Bridge+of+Sighs,+New+College+Ln,+Oxford+OX1+3BL,+UK" target="_blank">
+        <img class="img-responsive image" src="css/images/Oxford.jpg" alt="Bridge of Sighs, Oxford">
+        <div class="overlay">
+          <h3>The Bridge of Sighs</h3><p>Oxford, United Kingdom</p>
+        </div>
+      </a>
+
+      <a class="app-box" href="https://www.google.com/maps/place/Double+Arch,+The+Windows+Road,+Moab,+Utah" target="_blank">
+        <img class="img-responsive image" src="css/images/Arches.jpg" alt="Arches National Park">
+        <div class="overlay">
+          <h3>Double Arch</h3><p>Arches National Park, UT</p>
+        </div>
+      </a>
+
+      <a class="app-box" href="https://www.google.com/maps/place/Navarro+Point" target="_blank">
+        <img class="img-responsive image" src="css/images/Navarro.jpg" alt="Succulent clinging to the a cliff on the coast of California">
+        <div class="overlay">
+          <h3>Cliffside at Navarro Point</h3><p>Highway 1, CA</p>
+        </div>
+      </a>
+
+      <a class="app-box" href="https://www.google.com/maps/place/Bryce+Canyon+National+Park" target="_blank">
+        <img class="img-responsive image" src="css/images/Bryce.jpg" alt="canyons of Bryce Canyone National Park">
+        <div class="overlay">
+          <h3>Descending into the Canyon</h3><p>Bryce Canyon National Park, UT</p>
+        </div>
+      </a>
+
+      <a class="app-box" href="https://www.google.com/maps/place/Zion+National+Park" target="_blank">
+        <img class="img-responsive image" src="css/images/Zion2.jpg" alt="Zion Canyon, UT">
+        <div class="overlay">
+          <h3>Before Angel's Landing</h3><p>Zion National Park, UT</p>
+        </div>
+      </a>
+
+      <a class="app-box" href="https://www.google.com/maps/place/Mirabell+Palace+Salzburg" target="_blank">
+        <img class="img-responsive image" src="css/images/Mirabelle.jpg" alt="Walking in Mirabell Garden, Salzburg, Austria">
+        <div class="overlay">
+          <h3>Mirabellgarten</h3><p>Salzburg, Austria</p>
+        </div>
+      </a>
+
+      <a class="app-box" href="https://www.google.com/maps/place/Snowbasin+Resort,+Huntsville,+Utah" target="_blank">
+        <img class="img-responsive image" src="css/images/Snowbasin.jpg" alt="view from Snowbasin resort, UT, sunny bluebird day">
+        <div class="overlay">
+          <h3>Summit of Snowbasin</h3><p>Huntsville, UT</p>
+        </div>
+      </a>
+
+    </section>
+
+    <div class="row divider"></div>
+
+    <!-- Footer -->
+    <footer class="row">
+
+      <section class="footer-container">
+        <section class="footer-section text-center">
+
+          <h4 class="footer-heading">Follow me on:</h4>
+
+          <p class="footer-text">
+            <a class="zocial-instagram" href="https://www.instagram.com/emkeator/" target="_blank">  Instagram</a>
+            <br><br>
+            <a class="zocial-twitter" href="https://twitter.com/emkeator" target="_blank">  Twitter</a>
+            <br><br>
+            <a class="zocial-github" href="https://github.com/emkeator" target="_blank">  GitHub</a>
+            <br><br>
+            <a class="zocial-linkedin" href="https://www.linkedin.com/in/emkeator" target="_blank">  LinkedIn</a>
+          </p>
+        </section>
+
+        <section class="footer-section text-center">
+
+          <h4 class="footer-heading">Credits</h4>
+
+          <p class="footer-text">
+            Unlabled photos are: <a href="https://www.google.com/maps/place/Los+Angeles+County+Museum+of+Art" target="_blank">
+            "Urban Light"</a> at LACMA, the Louvre viewed from the <a href="https://www.google.com/maps/place/Musée+Orsay">Musée
+            d'Orsay</a>, <a href="https://www.google.com/maps/@34.0732418,-118.3731792,3a,75y,267.75h,77.48t/data=!3m6!1e1!3m4!1sXeYKteBAckBC1PW8qmA8Sw!2e0!7i13312!8i6656" target="_blank">
+            "Wings"</a> by Collette Miller in LA, and the Bean aka
+            <a href="https://www.google.com/maps/place/Cloud+Gate" target="_blank">Cloud Gate</a>
+            in Chicago, as seen from directly underneath.
+          </p>
+          <p class="footer-text tiny">
+            <br>
+            All photo credit to Emily Keator; note that for "Double Arch" and
+            "Mirabelle Gardens", camera credit to K. Keator.
+          </p>
+        </section>
+
+        <section class="footer-section text-center">
+
+          <h4 class="footer-heading">About Me</h4>
+
+          <p class="footer-text">I'm from Park City, UT, and a graduate of <a href="https://www.davidson.edu/" target="_blank">Davidson College</a>
+            ('16). I love to read, ski, hike, travel, cook, and create websites!
+            <br><br>
+            <img class="footer-logo" src="css/images/EKlogo_750.png" alt="simple drawing of mountains, sun, and birds">
+          </p>
+        </section>
+
+        <section class="footer-section text-center">
+          <img class="bio-img img-responsive" src="css/images/emkeator-biopic_650.jpg" height="50px" alt="Emily Keator">
+        </section>
+
+      </section>
+    </footer>
+  </div>
+
+  <!-- Modal 1-->
+  <div class="modal fade" id="web" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel1">Web Development</h4>
+              </div>
+              <div class="modal-body">
+                  <div class="modal-img">
+                    <img class="img-responsive" src="css/images/WebDev.jpg" alt="Screen with html">
+                  </div>
+                  <div class="modal-p">
+                    I am educated in web development, with a nanodegree from
+                    <a href="https://www.udacity.com/" target="_blank">Udacity</a>
+                    in Front-End Web Development. I have also completed a course in
+                    Full-Stack Web Development, at <a href="https://devmountain.com/" target="_blank">DevMountain</a>
+                    in Provo, UT. For further evidence of my web development skills,
+                    please see my interative <a href="https://emkeator.github.io/frontend-nanodegree-resume/" target="_blank">resume</a>.
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Modal 2-->
+  <div class="modal fade" id="programming" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel2">Programming</h4>
+              </div>
+              <div class="modal-body">
+                  <div class="modal-img">
+                    <img class="img-responsive" src="css/images/Java.jpg" alt="Coffee latte art">
+                  </div>
+                  <div class="modal-p">
+                    I am knowledgeable in several programming languages in
+                    addition to web languages HTML and CSS, including Java,
+                    Python, and JavaScript. If you are interested in learning about
+                    some of my work in these languages, including some projects
+                    in JavaScript and Python/Java, please see my interative
+                    <a href="https://emkeator.github.io/frontend-nanodegree-resume/" target="_blank">resume</a>.
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Modal 3-->
+  <div class="modal fade" id="design" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel3">Design & Photography</h4>
+              </div>
+              <div class="modal-body">
+                  <div class="modal-img">
+                    <img class="img-responsive" src="css/images/Design.jpg" alt="Coffee latte art">
+                  </div>
+                  <div class="modal-p">
+                    I produce clean, aesthetically pleasing websites, and am also
+                    capable of good photography. Please scroll further down on
+                    the website to view some of my photography. If you are interested
+                    in seeing some of my web design work, please see my interative
+                    <a href="https://emkeator.github.io/frontend-nanodegree-resume/" target="_blank">resume</a>.
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <script type="text/javascript" src="js/modal-maps.js"></script>
+
 </body>
+
 </html>
